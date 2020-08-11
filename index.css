@@ -434,9 +434,11 @@ margin-bottom:30px;
   padding-bottom: 60px;
   color:black;
 }
-@media (max-width : 320px) {
-    *{background-color:yellow;}
-}
-@media (max-width : 1000px) {
-    *{display:block;}
+@media (max-width : 1080px) {
+  .home-grid{
+    display: block;
+    background-color: #e3e3e3;
+    height:auto;
+    margin:auto;
+  }
 }
