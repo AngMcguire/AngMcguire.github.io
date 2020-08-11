@@ -1,7 +1,6 @@
 /* The navigation bar */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
 *{
   z-index: 0;
   padding:0px;
@@ -75,7 +74,8 @@
 display: grid;
 background-color: #e3e3e3;
 height:auto;
-max-height: 1000px;
+width: 100%;
+margin-left: 10px;
 margin-right: 10px;
 grid-template-columns:minmax(400px,30%) minmax(600px, 70%);
 grid-column-gap: 10px;
@@ -85,24 +85,24 @@ grid-column-gap: 10px;
   max-height: 500px;
   background-color: #e3e3e3;
 }
-
 html { scroll-behavior: smooth;
 }
-
 
 .sub-home{
   display: block;
   padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   justify-content: center;
   background-color: #e3e3e3;
   overflow: scroll;
-  max-height: 1000px;
 }
 
 .home-text{
   background-color: white;
-  padding: 10px;
+  padding: 8px;
+  width: 100%;
+  max-height: 1500px;
 }
 
 /* Links inside the navbar */
@@ -116,12 +116,6 @@ html { scroll-behavior: smooth;
   text-decoration: none;
 }
 
-/*body{
-  display: block;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-}*/
 /* Change background on mouse-over */
 .navbar a:hover {
   background:#e3e3e3;
@@ -131,7 +125,6 @@ p{
   padding: 30px;
 }
 h1{
-
   margin-left: 20px;
   color: purple;
   font-size: 40px;
@@ -155,14 +148,15 @@ h4{
   padding-bottom: 10px;
 }
 .works{
+  margin-left: auto;
+  margin-right: auto;
   min-width: 1000px;
+  max-height: 1200px;
   display: block;
   justify-content: center;
   text-align: center;
 }
 .works-container{
-  margin-left: 30px;
-  margin-right: 30px;
   display: grid;
   height: auto;
   grid-template-columns:50% 50%;
@@ -222,12 +216,10 @@ h4{
   margin-right: auto;
 }
 .pricing-comment{
-  font-size: 12px;
+  font-size: auto;
   text-align: center;
   background-color: white;
   padding-bottom: 15px;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 .sub-banner{
   display: grid;
@@ -245,10 +237,10 @@ padding-left: 10px;
 }
 .review-grid{
   height: auto;
-  max-height: 1000px;
   margin-left: 20px;
   margin-right: 20px;
-  min-width: 1000px;
+  max-height: 1000px;
+  min-width: 960px;
   background-color:#3B9087;
   display: grid;
   grid-column-gap: 10px;
@@ -285,12 +277,11 @@ padding-left: 10px;
 }
 
 .review-container{
-  min-width: 1000px;
   height:auto;
+  margin: auto;
   max-height: 1000px;
   width:90%;
   display: grid;
-  margin: auto;
   grid-template-columns: 5% 40% 40% 5%;
   padding-bottom: 30px;
   border: 3px purple;
@@ -319,19 +310,9 @@ cursor: pointer;
   margin: auto;
 }
 
-/* Main content */
 .main {
   margin-top: 75px; /* Add a top margin to avoid content overlay */
   display: block;
-}
-.contact-grid{
-  display: block;
-  z-index: 0;
-}
-.contact-text{
-  color: white;
-  position: absolute;
-  z-index: 2;
 }
 .container {
   position: relative;
@@ -381,7 +362,6 @@ cursor: pointer;
 .contact-container{
 display: grid;
 margin: auto;
-padding:auto;
 min-width: 1000px;
 grid-template-rows: 70px 40px 40px 70px;
 margin-bottom:30px;
@@ -401,7 +381,6 @@ margin-bottom:30px;
   text-align: center;
   margin-bottom: 30px;
 }
-
 .contact-symbols{
   display: inline-grid;
   padding-left: auto;
@@ -451,10 +430,6 @@ margin-bottom:30px;
  .home-text{
   max-height:fit-content;
   overflow:auto;
-  margin-left:auto;
-  margin-right:auto;
-  justify-content:center;
-  text-align:center;
  }
   .home-grid img{
     max-height: 500px;
@@ -465,5 +440,7 @@ margin-bottom:30px;
   .contact-symbols{
    grid-template-columns:33% 33% 33%;
   }
+  .info{
+    font-size: x-small;
+  }
 }
-
