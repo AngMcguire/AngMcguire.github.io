@@ -97,6 +97,7 @@ html { scroll-behavior: smooth;
   justify-content: center;
   background-color: #e3e3e3;
   overflow: scroll;
+  max-height: 1000px;
 }
 
 .home-text{
@@ -241,10 +242,10 @@ padding-top: 20%;
 padding-bottom: 20%;
 padding-right: 10px;
 padding-left: 10px;
-
 }
 .review-grid{
   height: auto;
+  max-height: 1000px;
   margin-left: 20px;
   margin-right: 20px;
   min-width: 1000px;
@@ -286,6 +287,7 @@ padding-left: 10px;
 .review-container{
   min-width: 1000px;
   height:auto;
+  max-height: 1000px;
   width:90%;
   display: grid;
   margin: auto;
@@ -303,7 +305,6 @@ padding-left: 10px;
   overflow: scroll;
   padding: 15px;
   display: none;
-
 }
 .review-entry-name{
   text-align: right;
@@ -312,7 +313,6 @@ padding-left: 10px;
 .next{
 margin: auto;
 cursor: pointer;
-
 }
 .prev{
   cursor: pointer;
@@ -332,7 +332,6 @@ cursor: pointer;
   color: white;
   position: absolute;
   z-index: 2;
-
 }
 .container {
   position: relative;
@@ -342,27 +341,7 @@ cursor: pointer;
 .prof-review{
   display: none;
 }
-.top-left {
-  font-size: 20px;
-  color:purple;
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-.top-left-1 {
-  font-size: 20px;
-  color:purple;
-  position: absolute;
-  top: 40px;
-  left: 16px;
-}
-.top-left-bot {
-  font-size: 20px;
-  color:purple;
-  position: absolute;
-  top: 90px;
-  left: 16px;
-}
+
 /* The dots/bullets/indicators */
 .dots{
   padding-top: 10px;
