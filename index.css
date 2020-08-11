@@ -434,3 +434,9 @@ margin-bottom:30px;
   padding-bottom: 60px;
   color:black;
 }
+@media (max-width : 320px) {
+    *{background-color:yellow;}
+}
+@media (max-width : 1000px) {
+    *{display:block;}
+}
