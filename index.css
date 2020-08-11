@@ -1,0 +1,381 @@
+/* The navigation bar */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+  z-index: 0;
+  padding:0px;
+  margin:0px;
+  background-color: #e3e3e3;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.banner{
+  width:100%;
+  height: auto;
+  z-index: 0;
+  position: relative;
+  text-align: center;
+}
+.banner-img{
+  z-index: 0;
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+  min-width: 1000px;
+
+}
+.sub-banner-1 {
+  background-color: transparent;
+  position: absolute;
+  width:100%;
+  margin:auto;
+  top:10px;
+  left: 10px;
+  font-size: 40px;
+  background-color: transparent;
+  color: purple;
+  font-weight: bold;
+}
+.sub-banner-2 {
+  background-color: transparent;
+  position: absolute;
+  width:100%;
+  margin:auto;
+  font-size: 18px;
+  top:65px;
+  background-color: transparent;
+  color: purple;
+  font-weight: normal;
+}
+.sub-banner-3 {
+  background-color: transparent;
+  position: absolute;
+  width:100%;
+  margin:auto;
+  font-size: 18px;
+  top:90px;
+  background-color: transparent;
+  color: purple;
+  font-weight: normal;
+}
+.navbar {
+  z-index: 1;
+  overflow: hidden;
+  border-top: 2px solid;
+  border-color: purple;
+  background-color: #e3e3e3;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-grid{
+display: grid;
+background-color: #e3e3e3;
+height:auto;
+margin-right: 10px;
+grid-template-columns:minmax(400px,40%) minmax(300px, 70%);
+grid-column-gap: 10px;
+}
+.home-grid img{
+  height: 500px;
+  background-color: #e3e3e3;
+}
+
+html { scroll-behavior: smooth;
+}
+
+.sub-home{
+  display: block;
+  padding-left: 10px;
+  text-align: center;
+  justify-content: center;
+  background-color: #e3e3e3;
+  overflow: scroll;
+}
+
+.home-text{
+  background-color: white;
+  padding: 10px;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/*body{
+  display: block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}*/
+/* Change background on mouse-over */
+.navbar a:hover {
+  background:#e3e3e3;
+  color: purple;
+}
+p{
+  padding: 30px;
+}
+h1{
+  margin-left: 20px;
+  color: purple;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+h2{
+  color: purple;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.works-container{
+  margin-left: 30px;
+  margin-right: 30px;
+  display: grid;
+  height: auto;
+  grid-template-columns:50% 50%;
+  background-color: white;
+}
+.works-sub-container{
+  background-color: white;
+  display: block;
+  text-align: center;
+  padding-bottom: 10%;
+}
+.works-title{
+  background-color: white;
+  font-size: 20px;
+  color: green;
+  padding-top:7%;
+  padding-bottom: 3%;
+}
+.sub-works-text-titles{
+  background-color: white;
+  font-size: 20px;
+  color: green;
+  width: 100%;
+  padding-top:7%;
+  padding-bottom: 3%;
+}
+.sub-works-text{
+  background-color: white;
+  width:100%;
+}
+.sub-works-text-rates{
+  background-color: white;
+  color: purple;
+}
+.sub-works-text-rates2{
+  background-color: white;
+  color: purple;
+  padding-bottom: 30px;
+}
+.sub-works-text-num{
+  background-color: white;
+  font-style: italic;
+  font-size: 14px;
+}
+.works-text{
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.works-text2{
+  background-color: white;
+  padding-top:10px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pricing-comment{
+  font-size: 10px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.sub-banner{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.review-title{
+font-size: 50px;
+color:white;
+font-weight: bolder;
+background-color:#bada56;
+padding-top: 20%;
+padding-bottom: 20%;
+padding-right: 10px;
+padding-left: 10px;
+
+}
+.review-grid{
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color:#bada56;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.review-subgrid{
+  background-color:#bada56;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.review-text{
+  background-color:#bada56;
+  color: white;
+  padding-bottom: 10%;
+}
+.review-text-name{
+  background-color:#bada56;
+  color: white;
+  font-size: 20px;
+}
+.star{
+  color: yellow;
+  text-align: right;
+
+}
+
+.review-container{
+  height:auto;
+  width:90%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 5% 40% 40% 5%;
+  padding-bottom: 30px;
+  border: 3px purple;
+  border-radius: 15px;
+  border-style: solid;
+  justify-content: center;
+}
+/*initially display no reviews*/
+.review-entry{
+  height:auto;
+  margin-top: 10px;
+  overflow: scroll;
+  padding: 15px;
+  display: none;
+
+}
+.review-entry-name{
+  text-align: right;
+  position: relative;
+}
+.next{
+margin: auto;
+cursor: pointer;
+
+}
+.prev{
+  cursor: pointer;
+  margin: auto;
+
+}
+
+/* Main content */
+.main {
+  margin-top: 75px; /* Add a top margin to avoid content overlay */
+  display: block;
+}
+.contact-grid{
+  display: block;
+  z-index: 0;
+}
+.contact-text{
+  color: white;
+  position: absolute;
+  z-index: 2;
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.prof-review{
+  display: none;
+}
+.top-left {
+  font-size: 20px;
+  color:purple;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.top-left-1 {
+  font-size: 20px;
+  color:purple;
+  position: absolute;
+  top: 40px;
+  left: 16px;
+}
+.top-left-bot {
+  font-size: 20px;
+  color:purple;
+  position: absolute;
+  top: 90px;
+  left: 16px;
+}
+/* The dots/bullets/indicators */
+.dots{
+  padding-top: 10px;
+  background-color:#bada56;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration:2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
