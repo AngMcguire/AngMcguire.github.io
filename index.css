@@ -454,3 +454,16 @@ margin-bottom:30px;
     font-size: small;
   }
 }
+@media (max-width : 1080px) {
+  .contact-container{
+    min-width: 500px;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+  }
+  .contact-symbols{
+   grid-template-columns:33% 33% 33%;
+
+  }
+  .info{
+    font-size: small;
+  }
+}
