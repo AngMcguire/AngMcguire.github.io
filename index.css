@@ -436,3 +436,25 @@ margin-bottom:30px;
 .info{
   padding-bottom: 60px;
 }
+@media only screen and (max-width: 600px) {
+  .home-grid{
+  display: grid;
+  background-color: #e3e3e3;
+  height:auto;
+  margin-right: 10px;
+  grid-template-columns:50% 50%;
+  grid-column-gap: 10px;
+  }
+  .review-container{
+    width:auto;
+    height: auto;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 5% 40% 40% 5%;
+    padding-bottom: 30px;
+    border: 3px purple;
+    border-radius: 15px;
+    border-style: solid;
+    justify-content: center;
+  }
+}
