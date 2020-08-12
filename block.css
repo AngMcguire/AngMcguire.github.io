@@ -284,42 +284,47 @@ background-color: blue;
 }
 .works-title{
   background-color: white;
-  font-size: 24px;
   color: #3B9087;
   padding-top:3%;
   padding-bottom: 1.5%;
+  font-size: 34px;
 }
 .sub-works-text-titles{
   background-color: white;
-  font-size: 24px;
+  font-size: 34px;
   color: #3B9087;
   padding-top:3%;
   padding-bottom: 1.5%;
+
 }
 .sub-works-text{
   background-color: white;
   width:80%;
   margin: auto;
+
 }
 .sub-works-text-rates{
   background-color: white;
   color: purple;
+  font-size: 20px;
 }
 .sub-works-text-rates2{
   background-color: white;
   color: purple;
   padding-bottom: 30px;
+  font-size: 20px;
 }
 .sub-works-text-num{
   background-color: white;
   font-style: italic;
-  font-size: 14px;
+  font-size: 24px;
 }
 .works-text{
   background-color: white;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 30px;
 }
 
 .works-text2{
@@ -330,9 +335,10 @@ background-color: blue;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+  font-size: 30px;
 }
 .pricing-comment{
-  font-size: auto;
+  font-size:20px;
   text-align: center;
   padding-top: 10px;
   width:80%;
@@ -350,7 +356,7 @@ margin-bottom:30px;
   color:black;
   width:90%;
   margin: auto;
-  font-size: small;
+  font-size: large;
   position:relative;
   text-align: center;
 }
@@ -358,7 +364,7 @@ margin-bottom:30px;
   color:black;
   width:90%;
   margin:auto;
-  font-size: small;
+  font-size: large;
   position:relative;
   text-align: center;
   margin-bottom: 30px;
