@@ -22,7 +22,6 @@
   text-align: center;
   min-height: 300px;
   min-width: 1000px;
-
 }
 .sub-banner-1 {
   background-color: transparent;
@@ -95,7 +94,6 @@ html { scroll-behavior: smooth;
   text-align: center;
   justify-content: center;
   background-color: #e3e3e3;
-  overflow: scroll;
 }
 
 .home-text{
@@ -293,7 +291,6 @@ padding-left: 10px;
 .review-entry{
   height:auto;
   margin-top: 10px;
-  overflow: scroll;
   padding: 15px;
   display: none;
 }
@@ -411,7 +408,19 @@ margin-bottom:30px;
   padding-bottom: 60px;
   color:black;
 }
+@media (max-width : 1080px) {
+  .contact-container{
+    min-width: 500px;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+  }
+  .contact-symbols{
+   grid-template-columns:33% 33% 33%;
 
+  }
+  .info{
+    font-size: x-small;
+  }
+}
 @media (max-width : 720px) {
    .home-grid{
     display: block;
@@ -451,19 +460,6 @@ margin-bottom:30px;
 
   }
   .info{
-    font-size: small;
-  }
-}
-@media (max-width : 1080px) {
-  .contact-container{
-    min-width: 500px;
-    grid-template-rows: 1fr 1fr 1fr 2fr;
-  }
-  .contact-symbols{
-   grid-template-columns:33% 33% 33%;
-
-  }
-  .info{
-    font-size: small;
+    font-size: x-small;
   }
 }
