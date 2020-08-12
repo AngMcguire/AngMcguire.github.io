@@ -4,7 +4,7 @@ var x = window.matchMedia("(max-width: 1000px)");
 myFunction(x); // Call listener function at run time
 x.addListener(myFunction); // Attach listener function on state changes
 
-profSlides(0);
+
 
 
 
@@ -25,7 +25,7 @@ function myFunction(x) {
 
 
 
-    profSlides(1);
+    profSlides(0);
     slideIndex=1;
     showSlides(1);
     // If media query matches
