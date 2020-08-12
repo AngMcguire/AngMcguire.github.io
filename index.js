@@ -3,6 +3,7 @@ showSlides(slideIndex);
 
 profSlides(0);
 
+document.getElementById("third-dot").style.display="none";
 
 function showSlides(n){
   var reviewlist = document.getElementsByClassName("review-entry");
@@ -10,6 +11,7 @@ function showSlides(n){
   for (i = 0; i < reviewlist.length; i++) {
       reviewlist[i].style.display = "none";
   }
+
 
   for (i=0;i<2;i++){
     if (n > reviewlist.length) {n-= reviewlist.length}

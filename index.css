@@ -1,6 +1,7 @@
 /* The navigation bar */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 *{
   z-index: 0;
   padding:0px;
@@ -57,13 +58,13 @@
 }
 .navbar {
   z-index: 1;
-  overflow: hidden;
   border-top: 2px solid;
   border-color: purple;
   background-color: #e3e3e3;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  overflow: hidden;
   height: 75px;
   display: flex;
   justify-content: center;
@@ -73,7 +74,6 @@
 display: grid;
 background-color: #e3e3e3;
 height:auto;
-width: 100%;
 margin-left: 10px;
 margin-right: 10px;
 grid-template-columns:minmax(400px,30%) minmax(600px, 70%);
@@ -89,8 +89,8 @@ html { scroll-behavior: smooth;
 
 .sub-home{
   display: block;
-  padding-left: 10px;
   padding-right: 10px;
+  padding-left: 10px;
   text-align: center;
   justify-content: center;
   background-color: #e3e3e3;
@@ -106,6 +106,7 @@ html { scroll-behavior: smooth;
 /* Links inside the navbar */
 .navbar a {
   float: left;
+  min-width: fit-content;
   display: block;
   color: black;
   text-align: center;
@@ -157,6 +158,8 @@ h4{
 .works-container{
   display: grid;
   height: auto;
+  margin-left:20px;
+  margin-right:20px;
   grid-template-columns:50% 50%;
   background-color: white;
 }
@@ -218,11 +221,10 @@ h4{
   text-align: center;
   background-color: white;
   padding-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.sub-banner{
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
+
 .review-title{
 font-size: 50px;
 color:white;
@@ -308,7 +310,7 @@ cursor: pointer;
 }
 
 .main {
-  margin-top: 75px; /* Add a top margin to avoid content overlay */
+  margin-top: 25px; /* Add a top margin to avoid content overlay */
   display: block;
 }
 .container {
@@ -316,6 +318,7 @@ cursor: pointer;
   text-align: center;
   color: white;
 }
+
 .prof-review{
   display: none;
 }
@@ -334,7 +337,6 @@ cursor: pointer;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active {
   background-color: white;
 }
@@ -406,6 +408,7 @@ margin-bottom:30px;
 }
 .info{
   padding-bottom: 60px;
+  font-size: large;
   color:black;
 }
 @media (max-width : 1080px) {
@@ -415,51 +418,8 @@ margin-bottom:30px;
   }
   .contact-symbols{
    grid-template-columns:33% 33% 33%;
-
   }
   .info{
-    font-size: x-small;
-  }
-}
-@media (max-width : 720px) {
-   .home-grid{
-    display: block;
-    background-color: #e3e3e3;
-    margin:auto;
-    justify-content: center;
-    text-align:center;
-    margin-bottom: 20px;
-    height:fit-content;
-    max-height:fit-content
-  }
-  h1{
-    text-align:center;
-  }
-  h2{
-    padding-bottom: 10px;
-  }
- .home-text{
-  max-height:fit-content;
-  overflow:auto;
-  margin-right: 10px;
-  padding-right: 10px;
- }
-
-  .home-grid img{
-    max-height: 500px;
-    background-color: #e3e3e3;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .contact-container{
-    min-width: 500px;
-    grid-template-rows: 1fr 1fr 1fr 2fr;
-  }
-  .contact-symbols{
-   grid-template-columns:33% 33% 33%;
-
-  }
-  .info{
-    font-size: x-small;
+    font-size: small;
   }
 }
