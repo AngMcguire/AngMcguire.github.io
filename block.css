@@ -269,10 +269,10 @@ padding-bottom: 30px;
   padding-bottom: 30px;
 }
 .prev:hover{
-background-color: blue;
+color:purple;
 }
 .next:hover{
-background-color: blue;
+color:purple;
 }
 .works-container{
   display: block;

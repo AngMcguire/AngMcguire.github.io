@@ -67,6 +67,10 @@ if (document.getElementById("home").style.color=="blue"){
 
 }
 function plusSlides(n){
+  gtag('event', 'review-click', {
+  'event_category' : 'review-slides',
+  'event_label' : 'student-review',
+});
   var reviewlist = document.getElementsByClassName("review-entry");
 
 
