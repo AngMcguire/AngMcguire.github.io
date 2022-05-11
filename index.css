@@ -81,7 +81,7 @@ grid-column-gap: 10px;
 }
 
 .home-grid img{
-  max-height: 600px;
+  max-height: 1200px;
   background-color: #e3e3e3;
 }
 html { scroll-behavior: smooth;
