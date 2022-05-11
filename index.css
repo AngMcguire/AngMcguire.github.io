@@ -288,7 +288,7 @@ padding-left: 10px;
 .review-container{
   height:auto;
   margin: auto;
-  max-height: 1000px;
+  max-height: 2000px;
   width:90%;
   display: grid;
   grid-template-columns: 5% 40% 40% 5%;
@@ -301,7 +301,7 @@ padding-left: 10px;
 /*initially display no reviews*/
 .review-entry{
   height:auto;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 15px;
   display: none;
 }
