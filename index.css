@@ -76,7 +76,7 @@ background-color: #e3e3e3;
 height:auto;
 margin-left: 10px;
 margin-right: 10px;
-grid-template-columns:minmax(400px,30%) minmax(600px, 70%);
+grid-template-columns:minmax(600px,30%) minmax(900px, 70%);
 grid-column-gap: 10px;
 }
 
@@ -100,8 +100,7 @@ html { scroll-behavior: smooth;
   background-color: white;
   padding: 8px;
   width: 100%;
-  max-height: 1500px;
-  font-size: 20px
+  max-height: 2000px;
 }
 
 /* Links inside the navbar */
@@ -143,7 +142,7 @@ h3{
 }
 h4{
   color: purple;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -267,17 +266,19 @@ padding-left: 10px;
 .review-text{
   background-color:#3B9087;
   color: white;
+  font-size: 26px;
   padding-bottom: 10%;
 }
 .review-text2{
   background-color:#3B9087;
   color: white;
+  font-size: 26px;
   padding-bottom: 10px;
 }
 .review-text-name{
   background-color:#3B9087;
   color: white;
-  font-size: 20px;
+  font-size: 26px;
 }
 .star{
   color: orange;
