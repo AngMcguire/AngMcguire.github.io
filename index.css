@@ -76,7 +76,7 @@ background-color: #e3e3e3;
 height:auto;
 margin-left: 10px;
 margin-right: 10px;
-grid-template-columns:minmax(600px,30%) minmax(900px, 70%);
+grid-template-columns:50% 50%;
 grid-column-gap: 10px;
 }
 
